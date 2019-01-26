@@ -1,0 +1,27 @@
+{
+  "name": "faymail",
+  "version": "1.0.0",
+  "description": "An editor",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo",
+    "typescript"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
