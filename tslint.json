@@ -6,6 +6,7 @@
         120
       ]
     },
+    "quotemark": false,
     "new-parens": true,
     "no-arg": true,
     "no-bitwise": true,
